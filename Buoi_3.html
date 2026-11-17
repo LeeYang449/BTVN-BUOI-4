@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/action_page.php" method="post" target="_self">
+        <label for="name">Username:</label>
+        <input type="text" id="name" name="name" required>
+        <input type="submit" value="Submit">
+        <br>
+        <label for="pass">Password:</label>
+        <input list="browsers" name="browsers" type="password" id="pass" name="pass" required>
+         <input type="submit" value="Submit">
+        <label for="car">Choose your car:</label>
+        <select id="car" name="car">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+        </select>       
+        <datalist id="browsers">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+        </datalist>
+
+        <input type="submit" value="Submit">
+        <br>
+    Thông tin mô tả về năng lực bản thân<textarea name="message" rows="10" cols="30">
+        The cat was playing in the garden.
+    </textarea>
+    <button type="button" onclick="alert('Hello world!')">Click Me!</button>
+    </form>
+</body>
+</html>
